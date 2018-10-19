@@ -13,7 +13,7 @@ public class Animal : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        Invoke("ChangeAnimalState", 0.5f);
+        Invoke("ChangeAnimalState", 0.3f);
     }
 	
 	// Update is called once per frame
