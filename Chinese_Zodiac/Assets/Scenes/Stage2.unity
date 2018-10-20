@@ -981,6 +981,25 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 64706692488596746, guid: dcff8e49183aa20419ee0c5609e6d3e4,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64706692488596746, guid: dcff8e49183aa20419ee0c5609e6d3e4,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162203748510304, guid: dcff8e49183aa20419ee0c5609e6d3e4, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 135462326133615272, guid: dcff8e49183aa20419ee0c5609e6d3e4,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff8e49183aa20419ee0c5609e6d3e4, type: 2}
   m_IsPrefabAsset: 0
@@ -2081,6 +2100,20 @@ Prefab:
       propertyPath: m_Name
       value: CactusPref (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 64143633584005370, guid: c667b2cb3bb7ac842815c319e5e17d8c,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64143633584005370, guid: c667b2cb3bb7ac842815c319e5e17d8c,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484429965847794, guid: c667b2cb3bb7ac842815c319e5e17d8c, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c667b2cb3bb7ac842815c319e5e17d8c, type: 2}
   m_IsPrefabAsset: 0
@@ -2953,6 +2986,24 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 64686982750858208, guid: 5bc9cd39d8164f94ab5025149abc0d1d,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64686982750858208, guid: 5bc9cd39d8164f94ab5025149abc0d1d,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408839401144474, guid: 5bc9cd39d8164f94ab5025149abc0d1d, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904996982827724, guid: 5bc9cd39d8164f94ab5025149abc0d1d, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bc9cd39d8164f94ab5025149abc0d1d, type: 2}
   m_IsPrefabAsset: 0
@@ -3481,6 +3532,24 @@ Prefab:
     - target: {fileID: 1904996982827724, guid: 5bc9cd39d8164f94ab5025149abc0d1d, type: 2}
       propertyPath: m_Name
       value: LfencePref (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 64686982750858208, guid: 5bc9cd39d8164f94ab5025149abc0d1d,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64686982750858208, guid: 5bc9cd39d8164f94ab5025149abc0d1d,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408839401144474, guid: 5bc9cd39d8164f94ab5025149abc0d1d, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904996982827724, guid: 5bc9cd39d8164f94ab5025149abc0d1d, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bc9cd39d8164f94ab5025149abc0d1d, type: 2}
@@ -5270,6 +5339,24 @@ Prefab:
       propertyPath: m_Name
       value: LfencePref (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 64686982750858208, guid: 5bc9cd39d8164f94ab5025149abc0d1d,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64686982750858208, guid: 5bc9cd39d8164f94ab5025149abc0d1d,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408839401144474, guid: 5bc9cd39d8164f94ab5025149abc0d1d, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904996982827724, guid: 5bc9cd39d8164f94ab5025149abc0d1d, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bc9cd39d8164f94ab5025149abc0d1d, type: 2}
   m_IsPrefabAsset: 0
@@ -6382,6 +6469,20 @@ Prefab:
       propertyPath: m_Name
       value: FencePref (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 64001198097381032, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64001198097381032, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1500144426182592, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac, type: 2}
   m_IsPrefabAsset: 0
@@ -6674,6 +6775,20 @@ Prefab:
     - target: {fileID: 1500144426182592, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac, type: 2}
       propertyPath: m_Name
       value: FencePref (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 64001198097381032, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64001198097381032, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1500144426182592, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac, type: 2}
@@ -7525,6 +7640,20 @@ Prefab:
     - target: {fileID: 4685263602373084, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac, type: 2}
       propertyPath: m_RootOrder
       value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 64001198097381032, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64001198097381032, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1500144426182592, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac, type: 2}
@@ -10093,6 +10222,25 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 64706692488596746, guid: dcff8e49183aa20419ee0c5609e6d3e4,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64706692488596746, guid: dcff8e49183aa20419ee0c5609e6d3e4,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162203748510304, guid: dcff8e49183aa20419ee0c5609e6d3e4, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 135462326133615272, guid: dcff8e49183aa20419ee0c5609e6d3e4,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff8e49183aa20419ee0c5609e6d3e4, type: 2}
   m_IsPrefabAsset: 0
@@ -11359,6 +11507,20 @@ Prefab:
       propertyPath: m_Name
       value: CactusPref (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 64143633584005370, guid: c667b2cb3bb7ac842815c319e5e17d8c,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64143633584005370, guid: c667b2cb3bb7ac842815c319e5e17d8c,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484429965847794, guid: c667b2cb3bb7ac842815c319e5e17d8c, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c667b2cb3bb7ac842815c319e5e17d8c, type: 2}
   m_IsPrefabAsset: 0
@@ -11533,6 +11695,20 @@ Prefab:
     - target: {fileID: 1500144426182592, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac, type: 2}
       propertyPath: m_Name
       value: FencePref (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 64001198097381032, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64001198097381032, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1500144426182592, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac, type: 2}
@@ -12592,6 +12768,25 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 64706692488596746, guid: dcff8e49183aa20419ee0c5609e6d3e4,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64706692488596746, guid: dcff8e49183aa20419ee0c5609e6d3e4,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162203748510304, guid: dcff8e49183aa20419ee0c5609e6d3e4, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 135462326133615272, guid: dcff8e49183aa20419ee0c5609e6d3e4,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff8e49183aa20419ee0c5609e6d3e4, type: 2}
   m_IsPrefabAsset: 0
@@ -12974,6 +13169,24 @@ Prefab:
     - target: {fileID: 1049793118861590, guid: cd1d56fa2eaf8004c8f7f1c2cdbceebc, type: 2}
       propertyPath: m_Name
       value: boxpref (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 64461806911723664, guid: cd1d56fa2eaf8004c8f7f1c2cdbceebc,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64461806911723664, guid: cd1d56fa2eaf8004c8f7f1c2cdbceebc,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1028135530214310, guid: cd1d56fa2eaf8004c8f7f1c2cdbceebc, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049793118861590, guid: cd1d56fa2eaf8004c8f7f1c2cdbceebc, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd1d56fa2eaf8004c8f7f1c2cdbceebc, type: 2}
@@ -13558,6 +13771,24 @@ Prefab:
       propertyPath: m_Name
       value: LfencePref (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 64686982750858208, guid: 5bc9cd39d8164f94ab5025149abc0d1d,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64686982750858208, guid: 5bc9cd39d8164f94ab5025149abc0d1d,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408839401144474, guid: 5bc9cd39d8164f94ab5025149abc0d1d, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904996982827724, guid: 5bc9cd39d8164f94ab5025149abc0d1d, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bc9cd39d8164f94ab5025149abc0d1d, type: 2}
   m_IsPrefabAsset: 0
@@ -14042,6 +14273,20 @@ Prefab:
       propertyPath: m_Name
       value: FencePref (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 64001198097381032, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64001198097381032, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1500144426182592, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d6ae7a3caa37c7428a1a35ed88ee6ac, type: 2}
   m_IsPrefabAsset: 0
@@ -14249,6 +14494,24 @@ Prefab:
     - target: {fileID: 4517605547583354, guid: cd1d56fa2eaf8004c8f7f1c2cdbceebc, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 64461806911723664, guid: cd1d56fa2eaf8004c8f7f1c2cdbceebc,
+        type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64461806911723664, guid: cd1d56fa2eaf8004c8f7f1c2cdbceebc,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049793118861590, guid: cd1d56fa2eaf8004c8f7f1c2cdbceebc, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1028135530214310, guid: cd1d56fa2eaf8004c8f7f1c2cdbceebc, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd1d56fa2eaf8004c8f7f1c2cdbceebc, type: 2}
