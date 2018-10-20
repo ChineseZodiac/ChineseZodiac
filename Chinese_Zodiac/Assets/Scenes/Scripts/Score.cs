@@ -27,7 +27,7 @@ public class Score : MonoBehaviour {
 
     public void Reset()
     {
-        score = 1000;
+        score = 100;
     }
 	// Use this for initialization
 	void Start () {
@@ -36,12 +36,13 @@ public class Score : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        score -= Time.deltaTime*5;
-        scoreText.text = ((int)score).ToString();
-
-        if(score<0)
+        if (score <= 0)
         {
+            score = 0;
             Application.LoadLevel(Application.loadedLevel);
         }
+        score -= Time.deltaTime*5;
+        scoreText.text = ((int)score).ToString();
+        
 	}
 }
