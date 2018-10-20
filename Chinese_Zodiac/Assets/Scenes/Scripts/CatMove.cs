@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CatMove : MonoBehaviour {
 
+    public string sceneName;
     public GameObject warning;
     public float speed = 20f;
     public float jumpPower = 5f;
@@ -50,7 +51,7 @@ public class CatMove : MonoBehaviour {
         // 문을 만나면 스테이지 클리어
         if (other.tag == "Door")
         {
-            Application.LoadLevel(Application.loadedLevel);
+            Application.LoadLevel(sceneName);
             Score.instance.Reset();
         }
         if (other.tag == "Enemy")

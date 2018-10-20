@@ -9310,6 +9310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c9541d3f53cba4590a3c3681ddeb75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: 
   warning: {fileID: 0}
   speed: 20
   jumpPower: 30
@@ -10971,6 +10972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c9541d3f53cba4590a3c3681ddeb75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: Clear
   warning: {fileID: 1191224406}
   speed: 20
   jumpPower: 30
@@ -14584,7 +14586,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 125
+  m_RootOrder: 127
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1805740369
 Prefab:
@@ -16431,7 +16433,7 @@ RectTransform:
   - {fileID: 1341242760}
   - {fileID: 1191224407}
   m_Father: {fileID: 0}
-  m_RootOrder: 124
+  m_RootOrder: 125
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
