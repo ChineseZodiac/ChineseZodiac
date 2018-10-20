@@ -5,6 +5,8 @@ using UnityEngine;
 public class CatMove : MonoBehaviour {
 
     public string sceneName;
+    public string failScene;
+    public string clearScene;
     public GameObject warning;
     public float speed = 20f;
     public float jumpPower = 5f;
@@ -32,6 +34,11 @@ public class CatMove : MonoBehaviour {
         {
             rb.AddForce(new Vector3(0, 1, 0) * jumpPower, ForceMode.Impulse);
         }
+
+        if(Score.score <= 0 )
+        {
+            Application.LoadLevel(failScene);
+        }
     }
 
     void OnTriggerEnter(Collider other)
@@ -51,12 +58,12 @@ public class CatMove : MonoBehaviour {
         // 문을 만나면 스테이지 클리어
         if (other.tag == "Door")
         {
-            Application.LoadLevel(sceneName);
+            Application.LoadLevel(clearScene);
             Score.instance.Reset();
         }
         if (other.tag == "Enemy")
         {
-            Application.LoadLevel(Application.loadedLevel);
+            Application.LoadLevel(failScene);
         }
     }
    void Warning()

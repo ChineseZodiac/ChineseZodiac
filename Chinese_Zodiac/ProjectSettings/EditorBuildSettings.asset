@@ -5,20 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-<<<<<<< HEAD
-  - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
-    path: Assets/Scenes/FirstStage.unity
-    guid: 24286f919d43ffc4e8e758f2d8bc3726
-  - enabled: 1
-    path: Assets/Scenes/Dragon.unity
-    guid: d96b04a77724bd543b47a8f705a9b692
-=======
-  - enabled: 0
-    path: Assets/Scenes/Main.unity
-    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Scenes/Title.unity
     guid: 00886fd2336309941ba3315198f788e7
@@ -26,24 +12,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Title2.unity
     guid: f23dd32242734d74db57253fdb4eecfb
   - enabled: 1
-    path: Assets/Scenes/FirstStage.unity
-    guid: 24286f919d43ffc4e8e758f2d8bc3726
+    path: Assets/Scenes/Chicken.unity
+    guid: 6ea2171588c8842498d7bfeed72843a1
   - enabled: 1
-    path: Assets/Scenes/NextStage.unity
-    guid: ff3b81236b9576d4baf17a2d6bd49e0a
-  - enabled: 1
-    path: Assets/Scenes/FailStage.unity
-    guid: 262f511a5f6e6b242bfec65877402393
->>>>>>> dceb6056ad8cb63b28239e594d9c03b5828c49bb
+    path: Assets/Scenes/Dragon.unity
+    guid: d96b04a77724bd543b47a8f705a9b692
   - enabled: 1
     path: Assets/Scenes/Stage2.unity
     guid: 6a8b84b8a1adc7c4b93255a5ca5547c6
   - enabled: 1
-<<<<<<< HEAD
-    path: Assets/Scenes/Clear.unity
-    guid: d8c9a59d5a7a66044a39f8c8db2892e2
-=======
+    path: Assets/Scenes/FailStage.unity
+    guid: 262f511a5f6e6b242bfec65877402393
+  - enabled: 1
     path: Assets/Scenes/FailStage2.unity
     guid: 38a5b497e89c40a46ae138223ff4f1a1
->>>>>>> dceb6056ad8cb63b28239e594d9c03b5828c49bb
+  - enabled: 1
+    path: Assets/Scenes/NextStage.unity
+    guid: ff3b81236b9576d4baf17a2d6bd49e0a
+  - enabled: 1
+    path: Assets/Scenes/Clear.unity
+    guid: d8c9a59d5a7a66044a39f8c8db2892e2
+  - enabled: 1
+    path: Assets/Scenes/FirstStage.unity
+    guid: 24286f919d43ffc4e8e758f2d8bc3726
   m_configObjects: {}
