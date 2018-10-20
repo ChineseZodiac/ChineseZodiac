@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class buttonAct : MonoBehaviour {
+    public string SceneName;
 
     public void OnClickExit()
     {
-        Application.LoadLevel(Application.loadedLevel);
+        Application.LoadLevel(SceneName);
     }
 }
