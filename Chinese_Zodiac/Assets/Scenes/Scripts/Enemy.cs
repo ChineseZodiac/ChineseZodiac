@@ -6,18 +6,14 @@ using UnityEngine;
 public class Enemy : MonoBehaviour {
 
     public float speed;
-    Rigidbody rb;
 
 	// Use this for initialization
-	void Start () {
-        rb = GetComponent<Rigidbody>();
-
-		
+	void Start () {		
 	}
 	
 	// Update is called once per frame
 	void Update () {
+        // Player 반대편에서 달려옴
         transform.Translate(0,0,speed * Time.deltaTime);
-        Vector3 direction = new Vector3(0, Input.GetAxis("Horizontal"), 0);
     }
 }

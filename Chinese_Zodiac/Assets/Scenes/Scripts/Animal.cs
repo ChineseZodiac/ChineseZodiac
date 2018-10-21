@@ -4,48 +4,30 @@ using UnityEngine;
 using UnityEngine.AI;
 
 public class Animal : MonoBehaviour {
-    int animal_state = 0;
     public float speed = 20f;
-    public float jumpPower = 30f;
-
-    CharacterController characterController;
+    public float delayTime;
     Rigidbody rb;
 
     // Use this for initialization
     void Start () {
-        //Invoke("ChangeAnimalState", 0.3f);
+        rb = GetComponent<Rigidbody>();
     }
 	
 	// Update is called once per frame
 	void Update () {
-
+        // Player와 같은 속도로 이동
         transform.Translate(0, 0, speed * Time.deltaTime);
-        //transform.Translate(speed * Time.deltaTime, 0, 0);
-       /* Vector3 direction = new Vector3(0, Input.GetAxis("Horizontal"), 0);
 
-
+        // UP 버튼 클릭 시 delayTime 후 점프
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            rb.AddForce(new Vector3(0, 1, 0) * jumpPower, ForceMode.Impulse);
+            Invoke("Jump", delayTime);
         }
         
-        
-       
-		if(animal_state==1)
-        {
-            transform.Translate(0, 0, speed * Time.deltaTime);
-            Vector3 direction = new Vector3(0, Input.GetAxis("Horizontal"), 0);
-        } */
-	}
-    
-    void OnTriggerEnter(Collider other)
-    {
-        Invoke("ChangeAnimalState", 0.5f);
     }
 
-    void ChangeAnimalState()
+    void Jump()
     {
-        animal_state = 1;
+        rb.AddForce(new Vector3(0, 1, 0) * 30f, ForceMode.Impulse);
     }
-    
 }

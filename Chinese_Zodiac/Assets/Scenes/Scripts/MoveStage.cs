@@ -15,8 +15,10 @@ public class MoveStage : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        // Space바 누를 시
         if(Input.GetButtonDown("Submit"))
         {
+            // 씬 이동
             Application.LoadLevel(stageName);
         }
 	}
