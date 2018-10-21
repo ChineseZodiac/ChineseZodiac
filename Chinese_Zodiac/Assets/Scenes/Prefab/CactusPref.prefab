@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 23950680339320344}
   - component: {fileID: 64143633584005370}
   - component: {fileID: 135980802435377022}
-  - component: {fileID: 114069782074794736}
   m_Layer: 0
   m_Name: CactusPref
   m_TagString: Untagged
@@ -100,17 +99,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 4a4d7b1d250f7874586a5f8fe4a58895, type: 3}
---- !u!114 &114069782074794736
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1484429965847794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f3a573ae9ddda64180128a965785e83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &135980802435377022
 SphereCollider:
   m_ObjectHideFlags: 1

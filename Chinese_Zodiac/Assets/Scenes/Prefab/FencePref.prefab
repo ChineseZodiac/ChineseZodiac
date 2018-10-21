@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 23209942808461004}
   - component: {fileID: 64001198097381032}
   - component: {fileID: 135567298636888136}
-  - component: {fileID: 114702450441118078}
   m_Layer: 0
   m_Name: FencePref
   m_TagString: Untagged
@@ -100,17 +99,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 27977a70a20b90a408f2caee7432861c, type: 3}
---- !u!114 &114702450441118078
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1500144426182592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f41e443c217553b4ea4246edb82b8d09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &135567298636888136
 SphereCollider:
   m_ObjectHideFlags: 1

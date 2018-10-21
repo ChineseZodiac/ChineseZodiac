@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 23944894041986678}
   - component: {fileID: 64706692488596746}
   - component: {fileID: 135462326133615272}
-  - component: {fileID: 114407790730684602}
   m_Layer: 0
   m_Name: RockPref
   m_TagString: Untagged
@@ -101,17 +100,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 6d112776a0bfd264cb8883359c2f8fff, type: 3}
---- !u!114 &114407790730684602
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1162203748510304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44b53537ff7f18c43bdb2d5376a27fc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &135462326133615272
 SphereCollider:
   m_ObjectHideFlags: 1
