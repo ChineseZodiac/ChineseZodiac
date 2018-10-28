@@ -37,7 +37,6 @@ public class Score : MonoBehaviour {
         // 시간에 따라 점수 지속적으로 감소
         score -= Time.deltaTime*5;
         // 텍스트 갱신
-        scoreText.text = ((int)score).ToString();
-        
+        scoreText.text = ((int)score).ToString(); 
 	}
 }
